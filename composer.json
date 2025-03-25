@@ -1,0 +1,16 @@
+{
+  "name": "x2764tech/extended-cpt",
+  "description": "A wrapper plugin wrapper around the amazing Extended-CPTs library.",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "David Kemp",
+      "email": "extended-cpts@x2764tech.co.uk"
+    }
+  ],
+  "require": {
+    "johnbillion/extended-cpts": "5.0.11",
+    "inc2734/wp-github-plugin-updater": "3.1.15"
+  }
+}

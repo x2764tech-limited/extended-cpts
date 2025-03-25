@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-composer="docker run --rm -it -v $PWD:/app -v ${COMPOSER_HOME:-$HOME/.composer} composer/composer"
+#composer="docker run --rm -it -v $PWD:/app -v ${COMPOSER_HOME:-$HOME/.composer} composer/composer"
 
-#composer=composer
+composer=composer
 
 $composer update
 

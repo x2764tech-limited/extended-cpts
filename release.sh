@@ -14,7 +14,7 @@ then
   sed -i -e "s/Version:.\+$/Version: ${VERSION}/" extended-cpts.php
   git commit -a -m "chore: Update extended-cpts to ${VERSION}"
   git tag "${VERSION}"
-  git push --tags origin
+  git push origin HEAD --tags
 
 
   zip -r -ll "extended-cpts.zip" . -x ".git/*" -x "composer.*" -x ".gitignore" -x "release.sh"

@@ -12,9 +12,11 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+  
+  check-for-updates:
+    permissions:
+      contents: write
+    
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -25,5 +27,14 @@ jobs:
       with:
         fetch-tags: true
 
+    - name: setup github user
+      run: |
+        git config user.name "Github Actions"
+        git config user.email "bot@x2764te.ch"
+
     - name: Do a release
       run: ./release.sh
+      env: 
+        GH_TOKEN: ${{ github.token }}
+      
+      

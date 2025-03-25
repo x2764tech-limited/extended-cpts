@@ -1,0 +1,27 @@
+# This is a basic workflow that is manually triggered
+
+name: Check for updates
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+   - cron: "23 2 * * *" 
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  greet:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+    - name: Check out the repository to the runner
+      uses: actions/checkout@v4  
+      with:
+        fetch-tags: true
+
+    - name: Do a release
+      run: ./release.sh

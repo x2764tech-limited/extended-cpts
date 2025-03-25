@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "johnbillion/extended-cpts": "5.0.11",
-    "inc2734/wp-github-plugin-updater": "3.1.15"
-  }
+    "johnbillion/extended-cpts": "^5.0",
+    "inc2734/wp-github-plugin-updater": "^3.0"
+  },
+  "type": "project"
 }

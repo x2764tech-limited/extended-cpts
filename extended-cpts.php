@@ -1,15 +1,13 @@
 <?php
 
 /*
- * Plugin Name: Extended-CPTS
- * Version:
-	Plugin URI: https://github.com/x2764tech/extended-cpts
-    Update Uri: https://github.com/x2764tech/extended-cpts
-	Description:Wrapper around extended-cpts library
-	Version: 0.0.1
-	Author: x2764tech limited
-    Author URI: https://x2764te.ch/
-	Copyright 2025 Shared and distributed by x2764tech limited
+   Plugin Name: Extended-CPTS
+   Plugin URI: https://github.com/x2764tech/extended-cpts
+   Description: Wrapper around extended-cpts library
+   Version: 0.0.1
+   Author: x2764tech limited
+   Author URI: https://x2764te.ch/
+   Copyright 2025 Shared and distributed by x2764tech limited
  */
 
 

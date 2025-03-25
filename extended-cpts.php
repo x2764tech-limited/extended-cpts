@@ -4,7 +4,7 @@
    Plugin Name: Extended-CPTS
    Plugin URI: https://github.com/x2764tech/extended-cpts
    Description: Wrapper around extended-cpts library
-   Version: 0.0.1
+   Version: 5.0.11
    Author: x2764tech limited
    Author URI: https://x2764te.ch/
    Copyright 2025 Shared and distributed by x2764tech limited
